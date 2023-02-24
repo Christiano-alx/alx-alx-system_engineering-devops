@@ -1,1 +1,1 @@
-My shell basics project
+DevOps Projects
