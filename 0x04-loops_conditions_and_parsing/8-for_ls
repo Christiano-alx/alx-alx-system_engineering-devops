@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# A script that prints content of a dir in a list format
+
+mylist=$(ls)
+
+for i in $mylist; do
+  echo "$i" | cut -d '-' -f2
+done
