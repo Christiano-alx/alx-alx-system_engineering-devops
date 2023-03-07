@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# A Script that prints listening sockets with the PID and name of the socket
+
+netstat -lp
